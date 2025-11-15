@@ -1,8 +1,8 @@
 #+title: NVD API tool
 #+author: gabriel
 
-* intro
-*** Setup
+
+** Setup
 
 Virtual environment para o python ->
 : [16:40][]~/nvd-api ✮ python3 -m venv venv
@@ -13,4 +13,28 @@ Ativar o venv ->
 Instalar dependências ->
 : (venv) [16:40][]~/nvd-api ✮ pip install requests rich
 
-* usage
+** Usage
+
+#+begin_src bash
+(venv) [16:53][]~/nvd-api:main ✗ ✮ python3 nvd.py
+Buscar por -> firefox 80
+no CVSSv3.1
+no CVSSv3.1
+no CVSSv3.1
+no CVSSv3.1
+"CVE-2020-15663 -- 8.8"
+"CVE-2020-15664 -- 6.5"
+"CVE-2020-15665 -- 4.3"
+"CVE-2020-15666 -- 6.5"
+"CVE-2020-15667 -- 8.8"
+"CVE-2020-15668 -- 4.3"
+"CVE-2020-15670 -- 8.8"
+"CVE-2020-15671 -- 3.1"
+"CVE-2020-15673 -- 8.8"
+"CVE-2020-15674 -- 8.8"
+"CVE-2020-12400 -- 4.7"
+"CVE-2020-12401 -- 4.7"
+"CVE-2020-6829 -- 5.3"
+"CVE-2021-38507 -- 6.5"
+another search ? y/n
+#+end_src
