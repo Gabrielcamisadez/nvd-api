@@ -1,0 +1,16 @@
+#+title: NVD API tool
+#+author: gabriel
+
+* intro
+*** Setup
+
+Virtual environment para o python ->
+: [16:40][]~/nvd-api ✮ python3 -m venv venv
+
+Ativar o venv ->
+: [16:40][]~/nvd-api ✮ source venv/bin/activate
+
+Instalar dependências ->
+: (venv) [16:40][]~/nvd-api ✮ pip install requests rich
+
+* usage
