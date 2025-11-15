@@ -11,7 +11,7 @@ Ativar o venv ->
 : [16:40][]~/nvd-api ✮ source venv/bin/activate
 
 Instalar dependências ->
-: (venv) [16:40][]~/nvd-api ✮ pip install requests rich
+: (venv) [16:40][]~/nvd-api ✮ pip install -r requirements.txt
 
 ** Usage
 
